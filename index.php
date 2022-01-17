@@ -183,7 +183,7 @@
 </html>
 <?php 
 
-                    if(isset($_POST['register']['delete']))
+                    if(isset($_POST['register']))
                     {
                         $first_name = $_POST['fname'];
                         $last_name = $_POST['lname'];
