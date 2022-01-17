@@ -93,6 +93,7 @@
                                                     <option disabled selected>Select your Gender</option>
                                                     <option>Male</option>
                                                     <option>Female</option>
+                                                    <option>other</option>
                                                 </select>   
                             </div>
                         </div>
