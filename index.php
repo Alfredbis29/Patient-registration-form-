@@ -204,7 +204,7 @@
                                             VALUES('$first_name','$last_name','$email','$address','$country','$city','$age','$birth_date','$phone_number','$gender','$password')";
                         
                             $run_patient = mysqli_query($con,$insert_patient);
-                            // $check = mysqli_num_rows($run_patient);
+                            // $check = mysqli_num_rows($run_patient);.
                             if($run_patient)
                             {
                                 echo "<script>alert('Patient added')</script>";
