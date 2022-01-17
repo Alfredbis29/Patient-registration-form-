@@ -10,7 +10,7 @@
     <link href="bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="bootstrap.min.js"></script>
     <script src="jquery.min.js"></script>
-    <link rel="stylesheet" type="" href="css.css">
+    <link rel="stylesheet" type="" href="style.css">
 </head>
 <body>
 
