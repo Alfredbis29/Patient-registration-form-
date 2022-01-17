@@ -65,12 +65,7 @@
                             </div>
                             <div class="form-group col-md-4">
                                 <input class="form-control" type="text" name="city" placeholder="City" required>
-                                <!-- <input class="form-control" type="text" name="city" placeholder="City" required>
-                            <label for="inputState">State</label>
-                            <select id="inputState" class="form-control">
-                                <option selected>Choose...</option>
-                                <option>...</option>
-                            </select> -->
+                             
                             </div>
                             <div class="form-group col-md-4">
                             <!-- <label for="inputZip">Zip</label> -->
