@@ -84,7 +84,7 @@
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-6">
-                            <!-- <label for="inputEmail4">First Name</label> -->
+                            <!-- <label for="inputEmail4">First Name</label> ...-->
                             <input class="form-control" type="text" name="contact" maxlength="10" placeholder="Phone Number" required>
                             </div>
                             <div class="form-group col-md-6">
@@ -109,6 +109,7 @@
                             </div>
                         </div>
                         <button id="submit" type="submit" name="register" class="btn btn-primary">Register Patient</button>
+                        <button id="delete" type="delete" name="delete" class="btn btn-danger">Delete</button>
                         </form>
                 </div>
                 <br>
@@ -182,7 +183,7 @@
 </html>
 <?php 
 
-                    if(isset($_POST['register']))
+                    if(isset($_POST['register']['delete']))
                     {
                         $first_name = $_POST['fname'];
                         $last_name = $_POST['lname'];
@@ -210,9 +211,14 @@
                                 echo "<script>window.open('index.php','_self')</script>";
                             }
                         }
-
+                      else {
+                        $insert_patient = "INSERT INTO patients(first_name,last_name,email,address,country,city,age,birth_date,phone_number,gender,password)
+                        VALUES('$first_name','$last_name','$email','$address','$country','$city','$age','$birth_date','$phone_number','$gender','$password')";
+    
+        $run_patient = mysqli_query($con,$insert_patient);
+                      }
                         
-                        else
+                        else if
                         {
                             echo "<script>alert('Password not Corresponding')</script>";
                         }
