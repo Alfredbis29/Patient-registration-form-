@@ -6,7 +6,7 @@ html, body {
     background-color: #152733;
 }
 
-/* 
+
 .form-holder .form-content {
     position: relative;
     text-align: center;
@@ -31,7 +31,7 @@ html, body {
     text-align: left;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
-} */
+} 
 
 
 .form-content p {
